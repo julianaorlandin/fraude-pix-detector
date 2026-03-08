@@ -30,3 +30,7 @@ python src/gerador_transacoes.py
 Analisar fraudes:
 
 python src/detector_fraude.py
+
+## Visualização da análise
+
+![Distribuição de risco](grafico_risco.png)

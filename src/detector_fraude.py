@@ -157,7 +157,24 @@ plt.ylabel("Quantidade")
 plt.show()
 
 # =========================
-# 12. Salvar resultado final
+# 12. Salvar gráfico para README
+# =========================
+
+plt.figure()
+
+df["classificacao"].value_counts().plot(kind="bar")
+
+plt.title("Distribuição de risco das transações PIX")
+plt.xlabel("Classificação")
+plt.ylabel("Quantidade")
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+grafico = os.path.join(BASE_DIR, "grafico_risco.png")
+
+plt.savefig(grafico)
+
+# =========================
+# 13. Salvar resultado final
 # =========================
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
