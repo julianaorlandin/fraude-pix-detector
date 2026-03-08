@@ -1,0 +1,8 @@
+id,cooperado,valor,hora,dispositivo_novo,chave_nova,classificacao,transacao_alta,score_risco
+1,101,150,10,0,0,NORMAL,False,0
+2,101,6000,23,1,1,RISCO_ALTO,True,100
+3,203,200,14,0,0,NORMAL,False,0
+4,101,7000,23,1,1,RISCO_ALTO,True,100
+5,301,500,16,0,1,NORMAL,False,10
+6,203,4500,22,1,1,RISCO_MEDIO,True,80
+7,402,120,9,0,0,NORMAL,False,0
